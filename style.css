@@ -144,3 +144,35 @@
   .winner {
     animation: rainbow 4s infinite linear;
   }
+
+  .container{
+    text-align: center;
+  }
+
+  .box {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 5px;
+    display: inline-block;
+    padding: 25px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .green {
+    background-color: darkgreen;
+  }
+  
+  .yellow {
+    background-color: goldenrod;
+  }
+  
+  .gray {
+    background-color: #888;
+  }
+  
+  .description {
+    display: inline-block;
+  }
+  

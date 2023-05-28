@@ -22,21 +22,16 @@ async function init()
     wordArray=word.split('');
 
     map=makeMap(wordArray);
-    console.log(map);
     
     
 
 
     setLoading(true);
 
-    console.log(word);
-
 
     document.addEventListener('keydown',function handlekeyPress(event){
 
         const action=event.key;
-
-        console.log(action);
 
         if(action === 'Enter')
         {
@@ -87,7 +82,6 @@ async function commit()
     }
 
     map=makeMap(wordArray);
-    console.log(map);
 
     setLoading(false);
     const res=await fetch("https://words.dev-apis.com/validate-word",{
